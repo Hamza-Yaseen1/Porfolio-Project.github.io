@@ -10,6 +10,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+   background-color: #000000c0; /*check it */
+
 }
 
 nav {
@@ -200,7 +202,32 @@ nav ul li a:hover {
     background-color: #ff2e00;
 }
 
+/*  Hero section part 2  */
 
+.serve {
+  padding: 20px;
+  background-color: #000000c0;
+  text-align: start;
+}
+
+.serve h1 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.serve h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.serve p {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
 /* media start here */
 @media screen and (max-width: 790px) {
   .hamburger {
@@ -235,7 +262,7 @@ nav ul li a:hover {
   }
 
   .overlay h1 {
-      font-size: 8vw;
+      font-size: 7vw;
   }
 
   .overlay p {
@@ -244,5 +271,42 @@ nav ul li a:hover {
 
   .button-container a {
       font-size: 4vw;
+  }
+}
+
+/*  Hero section part 2  */
+@media (max-width: 768px) {
+  .serve {
+      padding: 15px;
+  }
+
+  .serve h1 {
+      font-size: 1.8em;
+  }
+
+  .serve h3 {
+      font-size: 1.3em;
+  }
+
+  .serve p {
+      font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  .serve {
+      padding: 10px;
+  }
+
+  .serve h1 {
+      font-size: 1.5em;
+  }
+
+  .serve h3 {
+      font-size: 1.1em;
+  }
+
+  .serve p {
+      font-size: 0.9em;
   }
 }
