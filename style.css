@@ -381,3 +381,62 @@ nav ul li a:hover {
         margin: 0 auto 10px;
     }
 }
+/* counter start here */
+.counter-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.counter-column {
+    flex: 1;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.counter-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.counter-number-wrapper {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-number {
+    margin: 0;
+}
+.counter-number-prefix,
+.counter-number-suffix {
+    font-size: 20px;
+}
+.counter-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .counter-column {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .counter-number-wrapper {
+        font-size: 30px;
+    }
+    .counter-number-prefix,
+    .counter-number-suffix {
+        font-size: 16px;
+    }
+    .counter-icon {
+        font-size: 25px;
+    }
+}
