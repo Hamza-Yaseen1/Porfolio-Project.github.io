@@ -10,7 +10,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-   background-color: #000000c0; /*check it */
+   background-color: #000000ea; /*check it */
 
 }
 
@@ -309,4 +309,75 @@ nav ul li a:hover {
   .serve p {
       font-size: 0.9em;
   }
+}
+
+.production{
+  /* background-color: #000; */
+    color: #fff;
+    margin-bottom: 50px;
+}
+.production h1 {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.production p {
+    text-align: center;
+    margin: 0 20px 20px;
+    
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+    padding-top: 50px;
+    background-color: #000;
+    color: #fff;
+}
+.service-box {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 450px;
+}
+.service-box:hover {
+    transform: scale(1.05);
+    background-color: #000;
+    color: #fff;
+}
+.service-box img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 20px;
+}
+.service-content {
+    margin-left: 70px; /* Adjust based on image width */
+}
+
+.service-title {
+    font-size: 17px;
+    margin: 0 0 30px;
+    color: white;
+   
+}
+.service-title a {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .service-content {
+        margin-left: 0;
+    }
+    .service-box {
+        text-align: center;
+    }
+    .service-box img {
+        margin: 0 auto 10px;
+    }
 }
